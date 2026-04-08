@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How I Work Section</title>
+  <link rel="stylesheet" href="css/workflow-section.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f3f2ef;
+      color: #111111;
+    }
+  </style>
+</head>
+<body>
+  <section id="workflow" class="workflow-section">
+    <div class="workflow-shell">
+      <div class="workflow-left">
+        <div class="workflow-eyebrow">How I Work</div>
+        <h2 class="workflow-title">AI is an amplifier with no judgment of its own.</h2>
+        <p class="workflow-intro">
+          This workflow defines where speed enters the system, where accountability
+          remains human, and what fails when key checkpoints are skipped.
+        </p>
+
+        <div class="workflow-list" id="workflowList">
+          <button class="workflow-item" type="button">
+            <span class="workflow-num">01</span>
+            <span class="workflow-label">Frame the problem</span>
+            <span class="workflow-desc">Define the real question before generating anything.</span>
+          </button>
+
+          <button class="workflow-item is-active" type="button">
+            <span class="workflow-num">02</span>
+            <span class="workflow-label">Expand with AI</span>
+            <span class="workflow-desc">Use AI to widen exploration and compare directions.</span>
+          </button>
+
+          <button class="workflow-item" type="button">
+            <span class="workflow-num">03</span>
+            <span class="workflow-label">Synthesize critically</span>
+            <span class="workflow-desc">Review outputs as a skeptic, not a consumer.</span>
+          </button>
+
+          <button class="workflow-item" type="button">
+            <span class="workflow-num">04</span>
+            <span class="workflow-label">Surface trade-offs</span>
+            <span class="workflow-desc">Ask what each direction optimizes for, ignores, and risks.</span>
+          </button>
+
+          <button class="workflow-item" type="button">
+            <span class="workflow-num">05</span>
+            <span class="workflow-label">Accountability checkpoint</span>
+            <span class="workflow-desc">Pause before commitment. Ask what AI cannot answer.</span>
+          </button>
+
+          <button class="workflow-item" type="button">
+            <span class="workflow-num">06</span>
+            <span class="workflow-label">Decide and document</span>
+            <span class="workflow-desc">Commit and document the reasoning, not just the artifact.</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="workflow-right">
+        <div class="workflow-detail">
+          <div class="workflow-progress">
+            <span class="workflow-progress-bar" id="workflowProgressBar"></span>
+          </div>
+
+          <div class="workflow-panels">
+            <div class="workflow-panel" data-panel="0">
+              <h3>Frame the problem</h3>
+              <p>Define the real question before generating anything.</p>
+            </div>
+
+            <div class="workflow-panel is-active" data-panel="1">
+              <h3>Expand with AI</h3>
+              <p>
+                Use AI to widen the solution space, compare directions, and
+                pressure-test multiple options before the team converges too early.
+              </p>
+            </div>
+
+            <div class="workflow-panel" data-panel="2">
+              <h3>Synthesize critically</h3>
+              <p>
+                Review outputs as a skeptic, not a consumer. Look for weak logic,
+                false confidence, and shallow patterns.
+              </p>
+            </div>
+
+            <div class="workflow-panel" data-panel="3">
+              <h3>Surface trade-offs</h3>
+              <p>
+                Ask what each direction optimizes for, ignores, and risks before
+                momentum turns a weak direction into the default.
+              </p>
+            </div>
+
+            <div class="workflow-panel" data-panel="4">
+              <h3>Accountability checkpoint</h3>
+              <p>
+                Pause before commitment. Ask what AI cannot answer, what humans
+                still need to defend, and what trust costs may emerge later.
+              </p>
+            </div>
+
+            <div class="workflow-panel" data-panel="5">
+              <h3>Decide and document</h3>
+              <p>
+                Commit and document the reasoning, not just the artifact, so
+                future decisions can trace what was chosen and why.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="workflow-section.js"></script>
+</body>
+</html>
